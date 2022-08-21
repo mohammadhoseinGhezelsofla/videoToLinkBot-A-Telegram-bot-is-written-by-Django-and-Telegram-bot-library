@@ -1,9 +1,8 @@
-<h1>videoToLinkBot: A Telegram bot written in Python and Django and Telegram bot library</h1>
-<p>For my university project, I have to write a robot that receives telegram updates through django (webhook) and responds to them. Finally ended up with this project.</p>
+<h1>videoToLinkBot: A Telegram bot is written by Python and Django and Telegram bot library</h1>
+<p>For my university project, I wrote a robot that receives telegram messages through Django (webhook) and responds to them.</p>
 <h2>What can this bot do?</h2>
-<p>Currently, if you send it a playlist link from YouTube or Aparat sites, it will extract the video link of that playlist and send it to you in a txt file. In this robot, personal experiences and several sites are used to extract links.</p>
-<p>Note: The bot language is persian and can be accessed on Telegram with the username @v2link_bot</p>
-<p>I have no idea to add more sites, but if a request is registered for a site, I will add it as well.</p>
+<p>Currently, if you send a playlist link from YouTube or Aparat site, it will extract the video link of that playlist and send those to you in a text file. (I used my personal experiences in this project and got help from some sites to get the video links.</p>
+<p>Note: The bot language is Persian and can be accessed on Telegram with the username @v2link_bot</p>
 <h2>How to run this bot on a server?</h2>
 <p>To run this bot, you need a few things:</p>
 <ul>
@@ -18,7 +17,7 @@
 <p>then extract this project content into your project directory, so the "bot" folder should be first folder in your directory, then v2link_bot and manage.py file.</p>
 <h3>2: Set webhook:</h3>
 <p>To receive updates from Telegram with Django, you need to set webhook. To know how to set it, refer to <a href="https://core.telegram.org/bots/webhooks" target="blank">Marvin's Marvellous Guide to All Things Webhook</a></p>
-<h3>3: Install the bot extention, configure it, and add it in created django project:</h3>
+<h3>3: Install the bot app, configure it, and add it in created django project:</h3>
 <p>By now you should have the bot folder in your django project folder. You need to set it up:</p>
 <p>Go to the bot folder and edit the "views.py" file and put your bot token instead of YOUR_BOT_TOKEN in line 7.</p>
 <p>Go to v2link_bot folder and open "settings.py" file and add bot to installed_apps:</p>
